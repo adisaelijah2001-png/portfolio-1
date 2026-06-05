@@ -166,6 +166,8 @@ section{
     width: 60%;
     color: black;
     margin: 30px auto;
+    height: 25vh;
+    border-radius: 20px;
 }
 .tour-list li{
     font-size: 16px;
@@ -189,8 +191,8 @@ section{
     background-color: black;
     margin-left: 90%;
     border-radius: 50%;
-    width: 500px;
-    margin-top: 5px;
+    width: 20%;
+    margin-top: 50px;
 }
 .content-ticket{
     display: grid;
@@ -267,12 +269,12 @@ section{
 }
 .contact h5{
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     font-style: italic;
     margin-bottom: 8px;
     width: 100%;
     font-weight: lighter;
-    opacity: 0.6;
+    opacity: 0.8;
     margin: 0;
 }
 .contact-info p{
@@ -345,4 +347,17 @@ section{
     width: 100%;
     height: 100vh;
     object-fit: cover;
+}
+
+.footer{
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+}
+.social-icon{
+    align-items: center;
+    font-size: 24px;
+    color: black;
+    background-color: #fff;
+    justify-content: center;
 }
