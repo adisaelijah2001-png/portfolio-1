@@ -17,7 +17,7 @@ header{
     left: 0;
     z-index: 1000;
     background: #0f172a;
-    height: 50px;
+    height: 45px;
     align-items: center;
     padding: 10px;
     margin: auto;
@@ -30,8 +30,6 @@ nav{
     display: flex;
     align-items: center;
     width: 100%;
-    align-items: center;
-    justify-content: flex-start;
     gap: 30px;
 }
 ul{
@@ -206,6 +204,7 @@ section{
     color: black;
     width: 250px;
     height: 360px;
+    border-radius: 10px;
 }
 .ticket img{
     width: 100%;
@@ -371,5 +370,5 @@ section{
 .footer-hero h3{
     display: inline;
     margin-top: 25px
-    opacity: 0.7;
+    opacity: 0.4;
 }
