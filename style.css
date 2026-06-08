@@ -31,6 +31,7 @@ nav{
     align-items: center;
     width: 100%;
     gap: 30px;
+    justify-content: center;
 }
 ul{
     display: flex;
@@ -38,6 +39,7 @@ ul{
     list-style: none;
     padding: 0;
     margin: 0;
+    justify-content: center;
 }
 ul li a{
     text-decoration: none;
@@ -67,7 +69,7 @@ select{
     cursor: pointer;
 }
 section{
-    padding: 30px 0;
+    padding: 0 0;
 }
 .home{
     height: 90vh;
@@ -188,9 +190,10 @@ section{
     font-family: arial, sans-serif;
     background-color: black;
     margin-left: 90%;
-    border-radius: 50%;
+    border-radius: 30%;
     width: 20%;
-    margin-top: 50px;
+    padding: 10px;
+    margin-top: auto;
 }
 .content-ticket{
     display: grid;
@@ -319,9 +322,11 @@ section{
     border: 1px solid #ccc;
     border-radius: 5px;
     height: 30px;
+    
 }
 .messages::placeholder{
     color: #999;
+    margin-left: 10x;
 }
 .messages:focus{
     outline: none;
@@ -370,5 +375,5 @@ section{
 .footer-hero h3{
     display: inline;
     margin-top: 25px
-    opacity: 0.4;
+    opacity: 0.6;
 }
