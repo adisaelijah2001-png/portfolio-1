@@ -68,7 +68,7 @@ ul li a:hover{
     width: 200px;;
     background: transparent;
     color: white;
-    transition: 0.3s;
+    transition: 0.3 ease;
     font-size: 10px;
     margin: auto;
     margin-right: 0px;
@@ -79,7 +79,7 @@ ul li a:hover{
 
 select{
     background-color: transparent;
-    color: rgb(0, 0, 0);
+    color: rgb(41, 38, 38);
     border: none;
     font-size: 16px;
     cursor: pointer;
