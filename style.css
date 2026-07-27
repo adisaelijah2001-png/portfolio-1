@@ -56,15 +56,30 @@ ul li a:hover{
     margin-left: 50px;
 }
 .search-button{
-    margin-left: auto;
-    cursor: pointer;
-    font-size: 20px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.search-button input{
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px 0 0 10px;
+    width: 200px;;
+    background: transparent;
     color: white;
+    transition: 0.3s;
+    font-size: 10px;
+    margin: auto;
+    margin-right: 0px;
+}
+.search-button button:hover{
+    background: #0056b3;
 }
 
 select{
     background-color: transparent;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     font-size: 16px;
     cursor: pointer;
@@ -381,4 +396,24 @@ section{
     display: inline;
     margin-top: 25px;
     opacity: 0.6;
+}
+.social-icons i{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
