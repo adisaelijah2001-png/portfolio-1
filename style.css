@@ -417,3 +417,158 @@ section{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 120px;
+    }
+
+    header {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    ul {
+        flex-wrap: wrap;
+        gap: 10px 18px;
+    }
+
+    ul li a {
+        font-size: 16px;
+    }
+
+    #more {
+        margin-left: 0;
+    }
+
+    .search-button {
+        justify-content: center;
+    }
+
+    .search-button input {
+        width: min(200px, 70vw);
+        margin: 0;
+    }
+
+    .home {
+        min-height: 70vh;
+        height: auto;
+        padding: 80px 0;
+    }
+
+    .home h1 {
+        font-size: 36px;
+        margin-top: 0;
+    }
+
+    .home h3 {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+
+    .band {
+        padding: 40px 0;
+    }
+
+    .band h1,
+    .content h1,
+    .contact h1 {
+        font-size: 30px;
+    }
+
+    .second-par {
+        width: 100%;
+    }
+
+    .second-par br {
+        display: none;
+    }
+
+    .grid-container,
+    .content-ticket,
+    .grid-container-contact {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container {
+        gap: 10px;
+    }
+
+    .card {
+        width: min(250px, 80vw);
+        margin: 0 auto;
+    }
+
+    .content {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .content p {
+        width: 100%;
+    }
+
+    .tour-list {
+        width: 100%;
+        height: auto;
+    }
+
+    .out {
+        margin-left: auto;
+        width: auto;
+        padding: 5px 10px;
+    }
+
+    .content-ticket {
+        gap: 20px;
+    }
+
+    .ticket {
+        width: min(250px, 100%);
+        margin: 0 auto;
+    }
+
+    .contact {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .contact-section {
+        margin-bottom: 30px;
+    }
+
+    .grid-container-contact {
+        margin-top: 20px;
+    }
+
+    .contact-form {
+        margin-top: 0;
+    }
+
+    .input-row {
+        flex-direction: column;
+    }
+
+    .message,
+    .messages {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .Execution {
+        margin-left: auto;
+    }
+
+    .lonely-image img {
+        height: 45vh;
+    }
+
+    .footer {
+        height: 30vh;
+    }
+}
